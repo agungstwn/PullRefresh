@@ -30,6 +30,12 @@ public abstract class BaseActivity <V extends BasePresenter> extends AppCompatAc
         toolbar.setNavigationOnClickListener(view -> onBackPressed());
     }
 
+    public void homeToolbar(String title){
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        ((TextView) findViewById(R.id.title)).setText(title);
+        toolbar.setTitle("");
+    }
+
     public void initToolbar(String title, boolean isShowBackButton) {
         Toolbar toolbar = findViewById(R.id.toolbar);
         ((TextView) findViewById(R.id.title)).setText(title);
