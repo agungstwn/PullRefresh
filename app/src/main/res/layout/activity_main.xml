@@ -14,21 +14,21 @@
         android:orientation="vertical"
         android:padding="8dp">
         <Button
-            android:id="@+id/m_listview"
+            android:id="@+id/m_btn_listview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="ListView"/>
 
         <Button
-            android:id="@+id/m_recyclerview"
+            android:id="@+id/m_btn_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="Recycler View"/>
 
         <Button
-            android:id="@+id/m_scrollview"
+            android:id="@+id/m_btn_scrollview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
