@@ -31,7 +31,7 @@ public class RecyclerViewActivity extends BaseActivity {
         mRecylerview.setLayoutManager(new LinearLayoutManager(this));
         String[] array = new String[50];
         for (int i = 0; i < array.length; i++) {
-            array[i] = "string " + i;
+            array[i] = "Ganteng " + i;
         }
         mRecylerview.setAdapter(new RecyclerViewAdapter(array, this));
 

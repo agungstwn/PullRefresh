@@ -27,7 +27,7 @@ public class ListViewActivity extends BaseActivity {
 
         String[] array = new String[50];
         for (int i = 0; i < array.length; i++) {
-            array[i] = "string " + i;
+            array[i] = "Ganteng " + i;
         }
 
         mListView.setAdapter(new android.widget.ArrayAdapter<String>
